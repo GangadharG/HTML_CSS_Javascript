@@ -1,0 +1,20 @@
+Favourite_Fruits is a small tiny application.
+
+UserInterface: It consists of a page showing list of Fruits. Any one who can change the list of fruits according to their interest.
+
+How it works?
+When you click on a particular fruit, Only that fruit will be changed to text field. You can edit that text field with your 
+favourite fruit. In the similar way, you can change other fruit names also.
+
+events.html
+A page showing list of fruits. For each fruit, an input tag with value fruit is hidden with the help of css. When ever you click
+on particular fruit, events in the javascript will fire, Then you can view the textfield with existing fruit value, Then you can
+edit that fruit name. on coming out of that fruit, another event will fire, which will save the edited fruit value and change the
+input tag view to hidden.
+
+main.css
+initally input tag is hidden. On edit, it will be displayed.
+
+events.js
+On clicking on fruit name, click event is fired.
+After editing, on pressing enter (or on coming out i.e blur), keypress event (blur event)is fired.
