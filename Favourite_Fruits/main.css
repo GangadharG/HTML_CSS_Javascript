@@ -1,0 +1,15 @@
+body {
+    margin: 40px 200px;
+}
+
+li input {
+    display: none;
+}
+
+li.edit span {
+    display: none;
+}
+
+li.edit input {
+    display: inline;
+}
